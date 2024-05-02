@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import Note from "./Note";
-import initialNotes from "../notes";
 import NoteAddForm from "./NoteAddForm";
 import axios from "axios";
 
