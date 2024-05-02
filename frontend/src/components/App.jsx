@@ -7,7 +7,7 @@ import NoteAddForm from "./NoteAddForm";
 import axios from "axios";
 
 function App() {
-  const [notes, setNotes] = useState(initialNotes);
+  const [notes, setNotes] = useState([]);
   useEffect(() => {
     axios.get("http://localhost:3001/api/notes")
       .then(response => {
